@@ -1,15 +1,18 @@
-# DMV Data Analysis POC
-This repository contains a proof of concept for using transformer models to analyze and process data related to the Department of Motor Vehicles (DMV). 
+# Advanced DMV Data Analysis POC
+This repository houses a Proof of Concept (POC) designed to showcase the application of advanced data analysis techniques, including transformer models and TF-IDF with cosine similarity, on Department of Motor Vehicles (DMV) data.
 
-## Contents
-- `DMV_test.pdf`: Contains test cases or data related to DMV processes.
-- `DMV_using_transformers_pipeline.ipynb`: A Jupyter notebook demonstrating the use of transformer models in a pipeline for analyzing DMV data.
-
+## Project Description
+The goal of this POC is to explore and demonstrate how machine learning and natural language processing (NLP) techniques can be leveraged to enhance the analysis of DMV data. By applying these methods, we aim to improve the accuracy and efficiency of data processing, enabling better decision-making and insights.
+### Contents
+- `DMV_test.pdf`: A document containing test data that simulates real-world DMV records.
+- `DMV_using_transformers_pipeline.ipynb`: A Jupyter notebook demonstrating the application of transformer models to analyze the DMV data.
+- `DMV_using_TFIDF_and_cosine_similarity.ipynb`: This notebook explores the use of TF-IDF and cosine similarity for text analysis within the DMV data, providing insights into the similarity between documents and helping identify patterns.
 ## Getting Started
-To run the Jupyter notebook, you'll need to install certain Python packages, such as transformers, pandas, and jupyter. This can typically be done via pip:
-Then, you can launch Jupyter Notebook or JupyterLab and open the `.ipynb` file to view the analysis.
-## Purpose
-The purpose of this POC is to showcase how advanced machine learning techniques, specifically transformer models, can be applied to improve the efficiency and accuracy of data processing and analysis in the domain of motor vehicle management.
+To run the notebooks and explore the analyses:
+1. Ensure you have Python installed on your system.
+2. Install the necessary Python packages, including `transformers`, `pandas`, `numpy`, `scikit-learn`, and `jupyter`:
+```bash
+pip install transformers pandas numpy scikit-learn jupyter
 ## Contact
 For any inquiries or contributions, please contact 
 Name: Manikya Deepika Eadara
